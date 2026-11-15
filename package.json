@@ -8,8 +8,8 @@
     "url": "slang-website"
   },
   "scripts": {
-    "start": "node app.js",
-    "build": "webpack --config webpack.dev.js",
+    "start": "node init && node app.js",
+    "build": "node init && webpack --config webpack.dev.js",
     "buildprod": "webpack --config webpack.prod.js"
   },
   "author": "Mike Popoloski",
